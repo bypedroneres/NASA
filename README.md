@@ -1,5 +1,5 @@
 <div class="image-container">
-  <img class="CoverImagee" src="GIT HUB COVER.png" alt="Cover">
+  <img class="CoverImagee" src="PROJECT COVER.png" alt="Cover">
 </div>
           
 <h3>✺ NASA - Image of the Day ✺</h3>
