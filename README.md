@@ -23,7 +23,7 @@ The design of NASA - Image of the Day revolves around simplicity and focus on th
 
 <h4>✹ What I've Learned ✹</h4>
 
-* <b>API Integration:</b> Creating NASA - Image of the Day has allowed me to hone my skills in integrating APIs into web applications, enabling me to fetch and display real-time data effortlessly.
+* <b>API Integration:</b> Creating NASA - Image of the Day has allowed me to hone my skills in integrating APIs into web applications, enabling me to fetch and display all the data from NASA without any troubles.
 * <b>Asynchronous JavaScript:</b> Working with the NASA API necessitated asynchronous JavaScript techniques to handle data retrieval and updates, enhancing my understanding of async programming.
 * <b>Front-End Development:</b> Designing and developing the website has strengthened my expertise in front-end web technologies, including HTML, CSS, and JavaScript, as well as optimizing for user experience.
 
