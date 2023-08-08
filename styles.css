@@ -73,3 +73,69 @@ h3 {
   margin: 0 5px;
   cursor: pointer;
 }
+/* Add this style for a two-column layout */
+main {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.image-column {
+  flex: 1;
+  margin-right: 2rem; /* Add some spacing between columns */
+}
+
+.info-column {
+  flex: 2;
+  text-align: justify; /* Add this line to justify the text */
+}
+
+/* Media Query for Tablets and Larger Screens */
+@media screen and (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-column,
+  .info-column {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-align: left; /* Reset text alignment for smaller screens */
+  }
+}
+
+/* Add this style for the footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add this style to make the footer stick to the bottom */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
